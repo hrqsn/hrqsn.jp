@@ -41,10 +41,13 @@ export default {
   border: 2px solid $primary;
   box-shadow: 5px 6px 0px $primary;
   display: block;
+  background-color: #fff;
   .container {
     padding: 16px;
     .img {
       width: 100%;
+      height: 240px;
+      object-fit: cover;
     }
     .title {
       font-size: rem(24px);

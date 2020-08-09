@@ -45,6 +45,8 @@ export default {
     .item {
       max-width: 368px;
       width: 100%;
+      z-index: 100;
+      background-color: #fff;
     }
   }
   @include mqdown {
