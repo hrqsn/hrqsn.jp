@@ -5,7 +5,8 @@
     "text": "Imagination Server(@tdr_mcpe_server)の公式ホームページを制作。",
     "color": "blue",
     "img": "0.png",
-    "link": "https://imaginationserver.com"
+    "link": "https://imaginationserver.com",
+    "description": "Vue.js, Nuxt.js, SCSS"
   },
   {
     "id": 1,
@@ -13,7 +14,8 @@
     "text": "Mac用のデジタル分度器を制作。",
     "color": "black",
     "img": "1.png",
-    "link": "https://angle.hrqsn.jp/"
+    "link": "https://angle.hrqsn.jp/",
+    "description": "Swift"
   },
   {
     "id": 2,
@@ -21,7 +23,8 @@
     "text": "チャットアプリの改行による誤送信を防ぐためのMacアプリを制作。",
     "color": "blue",
     "img": "2.png",
-    "link": "https://entery.hrqsn.jp/"
+    "link": "https://entery.hrqsn.jp/",
+    "description": "Swift, Realm"
   },
   {
     "id": 3,
@@ -29,7 +32,8 @@
     "text": "マンダラート(アイデア発想法)のWebアプリを制作。",
     "color": "black",
     "img": "3.png",
-    "link": "https://mandal.hrqsn.jp/"
+    "link": "https://mandal.hrqsn.jp/",
+    "description": "Vue.js, Nuxt.js, SCSS, Firebase"
   },
   {
     "id": 4,
@@ -37,7 +41,8 @@
     "text": "Minecraftに特化したコミュニティサービスを制作。",
     "color": "blue",
     "img": "4.png",
-    "link": null
+    "link": null,
+    "description": "Ruby(Rails5), JavaScript, SCSS, Heroku"
   },
   {
     "id": 5,
@@ -45,7 +50,8 @@
     "text": "Minecraft向けのブロック設置補助ツールを制作。",
     "color": "black",
     "img": "5.png",
-    "link": "https://www.degret.net/"
+    "link": "https://www.degret.net/",
+    "description": "JavaScript, SCSS"
   },
   {
     "id": 6,
@@ -53,6 +59,7 @@
     "text": "MinecraftBEで東京ディズニーリゾート®︎を完全再現するプロジェクトを共同立ち上げ。",
     "color": "blue",
     "img": "6.png",
-    "link": "https://imaginationserver.com"
+    "link": "https://imaginationserver.com",
+    "description": "Minecraft"
   }
 ]

@@ -3,7 +3,7 @@
     <section class="cards">
       <div class="grid">
         <div class="item" v-for="work in works" :key="work.id">
-          <hr-work-card :img="img(work.img)" :title="work.title" :text="work.text" :color="work.color" :href="work.link"/>
+          <hr-work-card :img="img(work.img)" :title="work.title" :text="work.text" :color="work.color" :href="work.link" :description="work.description"/>
         </div>
       </div>
     </section>
@@ -41,6 +41,8 @@ export default {
     .item {
       max-width: 368px;
       width: 100%;
+      z-index: 100;
+      background-color: #fff;
     }
   }
   @include mqdown {

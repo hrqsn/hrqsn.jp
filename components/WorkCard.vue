@@ -4,6 +4,7 @@
       <img :src="img" alt="" class="img">
       <h1 class="title">{{title}}</h1>
       <p class="text">{{text}}</p>
+      <p class="description">{{description}}</p>
     </div>
   </component>
 </template>
@@ -25,7 +26,8 @@ export default {
       default: require('@/assets/img/works/0.png')
     },
     title: String,
-    text: String
+    text: String,
+    description: String
   },
   computed: {
     tag() {
@@ -57,6 +59,12 @@ export default {
       font-size: 16px;
       margin-top: 8px;
       font-style: italic;
+    }
+    .description {
+      font-size: 16px;
+      margin-top: 8px;
+      font-style: italic;
+      color: $gray-40;
     }
   }
   &:hover {

@@ -36,7 +36,7 @@
     animation: fall 30s linear infinite;
     left: 6%;
     &:nth-child(1) {
-      left: 25%;
+      left: 52%;
       font-size: 64px;
       animation-duration: 16s;
       animation: fallx 20s linear infinite;
@@ -58,7 +58,7 @@
       animation: fallx 60s linear infinite;
     }
     &:nth-child(5) {
-      left: 76%;
+      left: 6%;
       font-size: 50px;
       animation-delay: 96s;
       animation: fallx 40s linear infinite;
@@ -85,7 +85,7 @@
       animation-delay: 164s;
     }
     &:nth-child(10) {
-      left: 30%;
+      left: 90%;
       font-size: 32px;
       animation-delay: 180s;
       animation: fallx 16s linear infinite;
