@@ -1,7 +1,7 @@
 <template>
   <component :is="tag" :href="href" :color="color" class="card" target="_blank" rel="noopener">
     <div class="container">
-      <img :src="media" alt="" class="img">
+      <img v-if="isEmbed(type)" :src="media" alt="" class="img">
       <iframe v-if="type==='music'" :src="media" width="100%" height="256" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       <iframe v-if="type==='video'" width="100%" height="256" :src="media" frameborder="0" allow="encrypted-media;"></iframe>
       <h1 class="title">{{title}}</h1>
@@ -33,6 +33,11 @@ export default {
   computed: {
     tag() {
       return this.href ? 'a' : 'div'
+    }
+  },
+  methods: {
+    isEmbed(t) {
+      return t==="music" || t==="video" ? false : true
     }
   }
 }
