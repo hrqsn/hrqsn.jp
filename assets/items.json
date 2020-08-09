@@ -1,0 +1,112 @@
+[
+  {
+    "id": 0,
+    "title": "Hola!",
+    "text": "I’m Hal Sakuragi called as Nooooosa.",
+    "color": "blue",
+    "media": "0.png",
+    "type": "default"
+  },
+  {
+    "id": 1,
+    "title": "I’m 18, High Schooler in 🇯🇵",
+    "text": "Live in Saitama - Tokyo.",
+    "color": "black",
+    "media": "https://media.giphy.com/media/KiXl0vfc9XIIM/giphy.gif",
+    "type": "gif"
+  },
+  {
+    "id": 2,
+    "title": "Works",
+    "text": "Web Dev, App, Design, Minecraft, Sounds.",
+    "color": "blue",
+    "media": "https://media.giphy.com/media/ohONS2y8GTDoI/giphy.gif",
+    "type": "gif",
+    "link": "/works"
+  },
+  {
+    "id": 3,
+    "title": "Blog",
+    "text": "_( :⁍ 」 )_",
+    "color": "black",
+    "media": "https://media.giphy.com/media/xT5LMXPAtlTxvufGJG/giphy.gif",
+    "type": "gif",
+    "link": "https://note.com/hrqsn"
+  },
+  {
+    "id": 4,
+    "title": "Twitter",
+    "text": "@hrqsn",
+    "color": "blue",
+    "media": "https://media.giphy.com/media/LPkAp1rFJUq9W/giphy.gif",
+    "type": "gif",
+    "link": "https://twitter.com/hrqsn"
+  },
+  {
+    "id": 5,
+    "title": "Instagram",
+    "text": "@hrqsn",
+    "color": "black",
+    "media": "https://media.giphy.com/media/3ohze0q0Qkkq829k5y/giphy.gif",
+    "type": "gif",
+    "link": "https://instagram.com/hrqsn"
+  },
+  {
+    "id": 6,
+    "title": "GitHub",
+    "text": "@hrqsn",
+    "color": "blue",
+    "media": "https://media.giphy.com/media/Oi8OF060IDTBC/giphy.gif",
+    "type": "gif",
+    "link": "https://github.com/hrqsn"
+  },
+  {
+    "id": 7,
+    "title": "YouTube",
+    "text": "LEGO, Planet Coaster, Minecraft.",
+    "color": "black",
+    "media": "https://media.giphy.com/media/GooHQ14pILe0w/giphy.gif",
+    "type": "gif",
+    "link": "https://www.youtube.com/channel/UCGVZESnjE79XBgV9LMZls2g"
+  },
+  {
+    "id": 8,
+    "title": "Playlist",
+    "text": "Listen on Spotify.",
+    "color": "blue",
+    "media": "https://open.spotify.com/embed/playlist/339Fnup07XfxUa5x9cJ2vZ",
+    "type": "music"
+  },
+  {
+    "id": 9,
+    "title": "Like[0]",
+    "text": "今日ヤバイ奴に会った",
+    "color": "black",
+    "media": "https://www.youtube.com/embed/mSc_Y592KwM",
+    "type": "video"
+  },
+  {
+    "id": 10,
+    "title": "Like[1]",
+    "text": "SoCal Attractions 360",
+    "color": "blue",
+    "media": "https://www.youtube.com/embed/iEzlc1dkhEY",
+    "type": "video"
+  },
+  {
+    "id": 11,
+    "title": "Like[2]",
+    "text": "Do-Dodonpa",
+    "color": "black",
+    "media": "https://www.youtube.com/embed/mPerLFErPv8",
+    "type": "video"
+  },
+  {
+    "id": 12,
+    "title": "Like[3]",
+    "text": "Hollywood Dream - The Ride",
+    "color": "blue",
+    "media": "https://www.youtube.com/embed/O24rt3rX2Fg",
+    "type": "video"
+  }
+]
