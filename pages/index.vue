@@ -1,12 +1,28 @@
 <template>
-  <div class="container">
-    <section class="cards">
-      <div class="grid">
-        <div class="item" v-for="item in items" :key="item.id">
-          <hr-card :type="item.type" :media="media(item)" :title="item.title" :text="item.text" :color="item.color" :href="item.link"/>
-        </div>
+  <div>
+    <!-- <header class="header">
+      <div class="emoji">
+        <span>🎁</span>
+        <span>🤠</span>
+        <span>🤖</span>
+        <span>👻</span>
+        <span>🦊</span>
+        <span>🧠</span>
+        <span>🤡</span>
+        <span>👁</span>
+        <span>👨‍💻</span>
+        <span>😎</span>
       </div>
-    </section>
+    </header> -->
+    <div class="container">
+      <section class="cards">
+        <div class="grid">
+          <div class="item" v-for="item in items" :key="item.id">
+            <hr-card :type="item.type" :media="media(item)" :title="item.title" :text="item.text" :color="item.color" :href="item.link"/>
+          </div>
+        </div>
+      </section>
+    </div>
   </div>
 </template>
 
@@ -35,6 +51,19 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.header {
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  .emoji {
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    font-size: 64px;
+    animation-duration: 0s;
+    animation: transform 10s linear infinite;
+  }
+}
 .cards {
   padding: 120px 24px;
   .grid {

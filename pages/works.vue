@@ -3,7 +3,7 @@
     <section class="cards">
       <div class="grid">
         <div class="item" v-for="work in works" :key="work.id">
-          <hr-work-card :img="img(work.img)" :title="work.title" :text="work.text" :color="work.color" :href="work.link" :description="work.description"/>
+          <hr-work-card :media="media(work)" :title="work.title" :text="work.text" :color="work.color" :href="work.link" :description="work.description" :type="work.type"/>
         </div>
       </div>
     </section>
@@ -23,8 +23,12 @@ export default {
     }
   },
   methods: {
-    img(i) {
-      return require(`@/assets/img/works/${i}`)
+    media(item) {
+      if (item.type!=="img") {
+        return item.media
+      } else {
+        return require(`@/assets/img/works/${item.media}`)
+      }
     }
   }
 }

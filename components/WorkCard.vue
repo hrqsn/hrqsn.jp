@@ -1,7 +1,8 @@
 <template>
   <component :is="tag" :href="href" :color="color" class="card" target="_blank" rel="noopener">
     <div class="container">
-      <img :src="img" alt="" class="img">
+      <img v-if="type!=='music'" :src="media" alt="" class="img">
+      <iframe v-if="type==='music'" width="100%" height="256" scrolling="no" frameborder="no" allow="autoplay" :src="media"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
       <h1 class="title">{{title}}</h1>
       <p class="text">{{text}}</p>
       <p class="description">{{description}}</p>
@@ -21,13 +22,14 @@ export default {
       type: String,
       default: 'default'
     },
-    img: {
+    media: {
       type: String,
       default: require('@/assets/img/works/0.png')
     },
     title: String,
     text: String,
-    description: String
+    description: String,
+    type: String
   },
   computed: {
     tag() {

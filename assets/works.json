@@ -4,62 +4,78 @@
     "title": "Imagination Server 公式ホームページ",
     "text": "Imagination Server(@tdr_mcpe_server)の公式ホームページを制作。",
     "color": "blue",
-    "img": "0.png",
+    "media": "0.png",
     "link": "https://imaginationserver.com",
-    "description": "Vue.js, Nuxt.js, SCSS"
+    "type": "img"
   },
   {
     "id": 1,
     "title": "Angle",
     "text": "Mac用のデジタル分度器を制作。",
     "color": "black",
-    "img": "1.png",
+    "media": "1.png",
     "link": "https://angle.hrqsn.jp/",
-    "description": "Swift"
+    "description": "Swift",
+    "type": "img"
   },
   {
     "id": 2,
     "title": "Entery",
     "text": "チャットアプリの改行による誤送信を防ぐためのMacアプリを制作。",
     "color": "blue",
-    "img": "2.png",
+    "media": "2.png",
     "link": "https://entery.hrqsn.jp/",
-    "description": "Swift, Realm"
+    "description": "Swift, Realm",
+    "type": "img"
   },
   {
     "id": 3,
     "title": "Mandal",
     "text": "マンダラート(アイデア発想法)のWebアプリを制作。",
     "color": "black",
-    "img": "3.png",
+    "media": "3.png",
     "link": "https://mandal.hrqsn.jp/",
-    "description": "Vue.js, Nuxt.js, SCSS, Firebase"
+    "description": "Vue.js, Nuxt.js, SCSS, Firebase",
+    "type": "img"
   },
   {
     "id": 4,
     "title": "minepics",
     "text": "Minecraftに特化したコミュニティサービスを制作。",
     "color": "blue",
-    "img": "4.png",
+    "media": "4.png",
     "link": null,
-    "description": "Ruby(Rails5), JavaScript, SCSS, Heroku"
+    "description": "Ruby(Rails5), JavaScript, SCSS, Heroku",
+    "type": "img"
   },
   {
     "id": 5,
     "title": "Degret",
     "text": "Minecraft向けのブロック設置補助ツールを制作。",
     "color": "black",
-    "img": "5.png",
+    "media": "5.png",
     "link": "https://www.degret.net/",
-    "description": "JavaScript, SCSS"
+    "description": "JavaScript, SCSS",
+    "type": "img"
   },
   {
     "id": 6,
     "title": "Imagination Server",
     "text": "MinecraftBEで東京ディズニーリゾート®︎を完全再現するプロジェクトを共同立ち上げ。",
     "color": "blue",
-    "img": "6.png",
+    "media": "6.png",
     "link": "https://imaginationserver.com",
-    "description": "Minecraft"
+    "description": "Minecraft",
+    "type": "img"
+  },
+  {
+    "id": 7,
+    "title": "That Night",
+    "text": "Sound",
+    "color": "black",
+    "link": null,
+    "description": "Minecraft",
+    "media": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/875618506&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+    "type": "music"
   }
 ]
